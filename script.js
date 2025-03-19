@@ -59,6 +59,7 @@ const copyBtn = document.getElementById("copyBtn")
 
 copyBtn.addEventListener("click", (e) => {
     copyToClipboard()
+    alert("Copied to Clipboard")
 })
 
 
